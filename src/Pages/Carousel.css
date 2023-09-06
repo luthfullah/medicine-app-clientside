@@ -1,0 +1,8 @@
+.back{
+    background-color: rgba(150, 180, 220, 0.4);
+    opacity: 0.5;
+}
+.wrap{
+    display: flex;
+    
+}

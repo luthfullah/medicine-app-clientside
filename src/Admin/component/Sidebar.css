@@ -1,0 +1,41 @@
+/* Sidebar.css */
+.sidebar {
+  width: 240px;
+  height: 100%;
+  position: fixed;
+  top: 20;
+  left: -240px;
+  background-color: #333;
+  transition:  0.3s;
+  margin-top: 2px;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar.closed {
+  left: -200px;
+}
+
+.toggle-button{ 
+  display: flex;
+  flex-direction: column;
+  margin-left: 80%;
+  height: 40px;
+  cursor: pointer;
+  padding: 8px;
+ 
+}
+
+.bar {
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  margin: 2px 0;
+}
+
+.sidebar-content {
+  padding: 20px;
+  color: rgb(230, 220, 220);
+}
